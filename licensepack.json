@@ -1,0 +1,14 @@
+﻿[{
+	"Id": "GA",
+	"Name": "Global Admins",
+	"AssignedLicenses": [{
+		"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+		"DisabledPlans": ["efb87545-963c-4e0d-99df-69c6916d9eb0",
+		"199a5c09-e0ca-4e37-8f7c-b05d533e1ea2",
+		"0feaeb32-d00e-4d66-bd5a-43b5b83db82c"]
+	},
+	{
+		"SkuId": "984DF360-9A74-4647-8CF8-696749F6247A",
+		"DisabledPlans": null
+	}]
+}]

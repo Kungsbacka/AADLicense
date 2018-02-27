@@ -1,0 +1,125 @@
+﻿[{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"SkuPartNumber": "ENTERPRISEPACK",
+	"LicenseName": "Office 365 Enterprise E3"
+},
+{
+	"SkuId": "c32f9321-a627-406d-a114-1f9c81aaafac",
+	"SkuPartNumber": "OFFICESUBSCRIPTION_STUDENT",
+	"LicenseName": "Office 365 ProPlus for students"
+},
+{
+	"SkuId": "87bbbc60-4754-4998-8c88-227dca264858",
+	"SkuPartNumber": "POWERAPPS_INDIVIDUAL_USER",
+	"LicenseName": "PowerApps and Logic Flows"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"SkuPartNumber": "STANDARDWOFFPACK_STUDENT",
+	"LicenseName": "Office 365 A1 for students"
+},
+{
+	"SkuId": "061f9ace-7d42-4136-88ac-31dc755f143f",
+	"SkuPartNumber": "INTUNE_A",
+	"LicenseName": "Intune"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"SkuPartNumber": "DESKLESSPACK",
+	"LicenseName": "Office 365 F1"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"SkuPartNumber": "STANDARDWOFFPACK_IW_FACULTY",
+	"LicenseName": "Office 365 A1 Plus for faculty (unlimited)"
+},
+{
+	"SkuId": "533b8f26-f74b-4e9c-9c59-50fc4b393b63",
+	"SkuPartNumber": "MEE_STUDENT",
+	"LicenseName": "Minecraft Education Edition for students"
+},
+{
+	"SkuId": "12b8c807-2e20-48fc-b453-542b6ee9d171",
+	"SkuPartNumber": "OFFICESUBSCRIPTION_FACULTY",
+	"LicenseName": "Office 365 ProPlus for faculty"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"SkuPartNumber": "STANDARDWOFFPACK_FACULTY",
+	"LicenseName": "Office 365 A1 for faculty"
+},
+{
+	"SkuId": "1f2f344a-700d-42c9-9427-5cea1d5d7ba6",
+	"SkuPartNumber": "STREAM",
+	"LicenseName": "Microsoft Stream"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"SkuPartNumber": "STANDARDPACK",
+	"LicenseName": "Office 365 Enterprise E1"
+},
+{
+	"SkuId": "984df360-9a74-4647-8cf8-696749f6247a",
+	"SkuPartNumber": "MEE_FACULTY",
+	"LicenseName": "Minecraft Education Edition for faculty"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"SkuPartNumber": "ENTERPRISEPACKPLUS_STUDENT",
+	"LicenseName": "Office 365 A3 for students"
+},
+{
+	"SkuId": "a403ebcc-fae0-4ca2-8c8c-7a907fd6c235",
+	"SkuPartNumber": "POWER_BI_STANDARD",
+	"LicenseName": "Power BI (free)"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"SkuPartNumber": "STANDARDWOFFPACK_IW_STUDENT",
+	"LicenseName": "Office 365 A1 Plus for students (unlimited)"
+},
+{
+	"SkuId": "d9d89b70-a645-4c24-b041-8d3cb1884ec7",
+	"SkuPartNumber": "INTUNE_EDU",
+	"LicenseName": "Microsoft Intune for Education"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"SkuPartNumber": "ENTERPRISEPACKPLUS_FACULTY",
+	"LicenseName": "Office 365 A3 for faculty"
+},
+{
+	"SkuId": "c7e9d9e6-1981-4bf3-bb50-a5bdfaa06fb2",
+	"SkuPartNumber": "WSfB_EDU_Faculty",
+	"LicenseName": "Windows Store for Business for Education"
+},
+{
+	"SkuId": "dcb1a3ae-b33f-4487-846a-a640262fadf4",
+	"SkuPartNumber": "POWERAPPS_VIRAL",
+	"LicenseName": "Microsoft Power Apps \u0026 Flow"
+},
+{
+	"SkuId": "de5f128b-46d7-4cfc-b915-a89ba060ea56",
+	"SkuPartNumber": "POWER_BI_PRO_FACULTY",
+	"LicenseName": "Power BI Pro for faculty"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"SkuPartNumber": "EMS",
+	"LicenseName": "Enterprise Mobility + Security E3"
+},
+{
+	"SkuId": "f8a1db68-be16-40ed-86d5-cb42ce701560",
+	"SkuPartNumber": "POWER_BI_PRO",
+	"LicenseName": "Power BI Pro"
+},
+{
+	"SkuId": "8c4ce438-32a7-4ac5-91a6-e22ae08d9c8b",
+	"SkuPartNumber": "RIGHTSMANAGEMENT_ADHOC",
+	"LicenseName": "Rights Management Adhoc"
+},
+{
+	"SkuId": "80f12768-d8d9-4e93-99a8-fa2464374d34",
+	"SkuPartNumber": "CLASSDASH_PREVIEW",
+	"LicenseName": "Microsoft Classroom"
+}]

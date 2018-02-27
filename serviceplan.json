@@ -1,0 +1,935 @@
+﻿[{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "3ffba0d2-38e5-4d5e-8ec0-98f2b05c09d9",
+	"Name": "Stream for Office 365 K1"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "4a82b400-a79f-41a4-b4e2-e94f5787b113",
+	"Name": "Exchange Online Kiosk"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "7547a3fe-08ee-4ccb-b430-5077c5041653",
+	"Name": "Yammer Enterprise"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "80873e7a-cd2a-4e67-b061-1b5381a676a5",
+	"Name": "To-Do (Firstline)"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "902b47e5-dcb2-4fdc-858b-c63a90a2bdb9",
+	"Name": "SharePoint Online Kiosk"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "afc06cb0-b4f4-4473-8286-d644f70d8faf",
+	"Name": "Skype for Business Online (Plan 1)"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "bd91b1a4-9f94-4ecf-b45b-3a65e5c8128a",
+	"Name": "Flow for Office 365 K1"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "e0287f9f-e222-4f98-9a83-f379e249159a",
+	"Name": "PowerApps for Office 365 K1"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "e95bec33-7c88-4a70-8e19-b10bd9d0c014",
+	"Name": "Office Online"
+},
+{
+	"SkuId": "4b585984-651b-448a-9e53-3b10f069cf7f",
+	"ServicePlanId": "f07046bd-2a3c-4b96-b0be-dea79d7cbfb8",
+	"Name": "Microsoft Forms (Plan K)"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"ServicePlanId": "41781fb2-bc02-4b7c-bd55-b576c07bb09d",
+	"Name": "Azure Active Directory Premium Plan 2"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"ServicePlanId": "6c57d4b6-3b23-47a5-9bc9-69f17b4947b3",
+	"Name": "Azure Information Protection Plan 1"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"ServicePlanId": "8a256a2b-b617-496d-b51b-e76466e88db0",
+	"Name": "Azure Multi-Factor Authentication"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"ServicePlanId": "932ad362-64a8-4783-9106-97849a1a30b9",
+	"Name": "Cloud App Security Discovery"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
+	"ServicePlanId": "c1ec4a95-1f05-45b3-a911-aa3fa01094f5",
+	"Name": "Intune A Direct"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "2e2ddb96-6af9-4b1d-a3f0-d6ecfd22edb2",
+	"Name": "Microsoft Cloud App Security"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "41781fb2-bc02-4b7c-bd55-b576c07bb09d",
+	"Name": "Azure Active Directory Premium Plan 1"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "5689bec4-755d-4753-8b61-40975025187c",
+	"Name": "Azure Information Protection Premium P2"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "6c57d4b6-3b23-47a5-9bc9-69f17b4947b3",
+	"Name": "Azure Information Protection Plan 1"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "8a256a2b-b617-496d-b51b-e76466e88db0",
+	"Name": "Azure Multi-Factor Authentication"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "c1ec4a95-1f05-45b3-a911-aa3fa01094f5",
+	"Name": "Intune A Direct"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"ServicePlanId": "eec0eb4f-6444-4f95-aba0-50c24d67f998",
+	"Name": "Azure Active Directory Premium P2"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "2789c901-c14e-48ab-a76a-be334d9d793a",
+	"Name": "Microsoft Forms (Plan E3)"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "5dbe027f-2339-4123-9542-606e4d348a72",
+	"Name": "SharePoint Online (Plan 2)"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "7547a3fe-08ee-4ccb-b430-5077c5041653",
+	"Name": "Yammer Enterprise"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "e95bec33-7c88-4a70-8e19-b10bd9d0c014",
+	"Name": "Office Online"
+},
+{
+	"SkuId": "6fd2c87f-b296-42f0-b197-1e91e994b900",
+	"ServicePlanId": "efb87545-963c-4e0d-99df-69c6916d9eb0",
+	"Name": "Exchange Online (Plan 2)"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "199a5c09-e0ca-4e37-8f7c-b05d533e1ea2",
+	"Name": "Microsoft Bookings"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "1d0f309f-fdf9-4b2a-9ae7-9c48b91f1426",
+	"Name": "Azure Active Directory Basic for EDU"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "2078e8df-cff6-4290-98cb-5408261a760a",
+	"Name": "Yammer for Academic"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "500b6a2a-7a50-4f40-b5f9-160e5b8c2f48",
+	"Name": "School Data Sync (Plan 2)"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "63038b2c-28d0-45f6-bc36-33062963b498",
+	"Name": "SharePoint Plan 2 for EDU"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "8c098270-9dd4-4350-9b30-ba4703f3b36b",
+	"Name": "Office 365 Cloud App Security"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "e578b273-6db4-4691-bba0-8d691f4da603",
+	"ServicePlanId": "efb87545-963c-4e0d-99df-69c6916d9eb0",
+	"Name": "Exchange Online (Plan 2)"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "199a5c09-e0ca-4e37-8f7c-b05d533e1ea2",
+	"Name": "Microsoft Bookings"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "1d0f309f-fdf9-4b2a-9ae7-9c48b91f1426",
+	"Name": "Azure Active Directory Basic for EDU"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "2078e8df-cff6-4290-98cb-5408261a760a",
+	"Name": "Yammer for Academic"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "500b6a2a-7a50-4f40-b5f9-160e5b8c2f48",
+	"Name": "School Data Sync (Plan 2)"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "63038b2c-28d0-45f6-bc36-33062963b498",
+	"Name": "SharePoint Plan 2 for EDU"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "8c098270-9dd4-4350-9b30-ba4703f3b36b",
+	"Name": "Office 365 Cloud App Security"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "98b6e773-24d4-4c0d-a968-6e787a1f8204",
+	"ServicePlanId": "efb87545-963c-4e0d-99df-69c6916d9eb0",
+	"Name": "Exchange Online (Plan 2)"
+},
+{
+	"SkuId": "d9d89b70-a645-4c24-b041-8d3cb1884ec7",
+	"ServicePlanId": "3a3976ce-de18-4a87-a78e-5e9245e252df",
+	"Name": "Azure Active Directory for Education"
+},
+{
+	"SkuId": "d9d89b70-a645-4c24-b041-8d3cb1884ec7",
+	"ServicePlanId": "c1ec4a95-1f05-45b3-a911-aa3fa01094f5",
+	"Name": "Intune A Direct"
+},
+{
+	"SkuId": "d9d89b70-a645-4c24-b041-8d3cb1884ec7",
+	"ServicePlanId": "da24caf9-af8e-485c-b7c8-e73336da2693",
+	"Name": "Intune for Education"
+},
+{
+	"SkuId": "12b8c807-2e20-48fc-b453-542b6ee9d171",
+	"ServicePlanId": "13696edf-5a08-49f6-8134-03083ed8ba30",
+	"Name": "OneDrive for Business (Plan 1)"
+},
+{
+	"SkuId": "12b8c807-2e20-48fc-b453-542b6ee9d171",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "12b8c807-2e20-48fc-b453-542b6ee9d171",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "12b8c807-2e20-48fc-b453-542b6ee9d171",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "12b8c807-2e20-48fc-b453-542b6ee9d171",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "c32f9321-a627-406d-a114-1f9c81aaafac",
+	"ServicePlanId": "13696edf-5a08-49f6-8134-03083ed8ba30",
+	"Name": "OneDrive for Business (Plan 1)"
+},
+{
+	"SkuId": "c32f9321-a627-406d-a114-1f9c81aaafac",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "c32f9321-a627-406d-a114-1f9c81aaafac",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "c32f9321-a627-406d-a114-1f9c81aaafac",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "c32f9321-a627-406d-a114-1f9c81aaafac",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "87bbbc60-4754-4998-8c88-227dca264858",
+	"ServicePlanId": "0b4346bb-8dc3-4079-9dfc-513696f56039",
+	"Name": "Logic flows"
+},
+{
+	"SkuId": "87bbbc60-4754-4998-8c88-227dca264858",
+	"ServicePlanId": "2c4ec2dc-c62d-4167-a966-52a3e6374015",
+	"Name": "Microsoft Power Videos Basic"
+},
+{
+	"SkuId": "87bbbc60-4754-4998-8c88-227dca264858",
+	"ServicePlanId": "e61a2945-1d4e-4523-b6e7-30ba39d20f32",
+	"Name": "Microsoft PowerApps"
+},
+{
+	"SkuId": "dcb1a3ae-b33f-4487-846a-a640262fadf4",
+	"ServicePlanId": "17ab22cd-a0b3-4536-910a-cb6eb12696c0",
+	"Name": "Common Data Service"
+},
+{
+	"SkuId": "dcb1a3ae-b33f-4487-846a-a640262fadf4",
+	"ServicePlanId": "50e68c76-46c6-4674-81f9-75456511b170",
+	"Name": "Flow Free"
+},
+{
+	"SkuId": "dcb1a3ae-b33f-4487-846a-a640262fadf4",
+	"ServicePlanId": "d20bfa21-e9ae-43fc-93c2-20783f0840c3",
+	"Name": "Flow P2 Viral"
+},
+{
+	"SkuId": "dcb1a3ae-b33f-4487-846a-a640262fadf4",
+	"ServicePlanId": "d5368ca3-357e-4acb-9c21-8495fb025d1f",
+	"Name": "PowerApps Trial"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "0f9b09cb-62d1-4ff4-9129-43f4996f83f4",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "159f4cd6-e380-449f-a816-af1a9ef76344",
+	"Name": "Microsoft Forms (Plan E1)"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "5e62787c-c316-451f-b873-1d05acd4d12c",
+	"Name": "To-Do (Plan 1)"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "743dd19e-1ce3-4c62-a3ad-49ba8f63a2f6",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "7547a3fe-08ee-4ccb-b430-5077c5041653",
+	"Name": "Yammer Enterprise"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "92f7a6f3-b89b-4bbd-8c30-809e6da5ad1c",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "9aaf7827-d63c-4b61-89c3-182f06f82e5c",
+	"Name": "Exchange Online (Plan 1)"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "c7699d2e-19aa-44de-8edf-1736da088ca1",
+	"Name": "SharePoint Online (Plan 1)"
+},
+{
+	"SkuId": "18181a46-0d4e-45cd-891e-60aabd171b4e",
+	"ServicePlanId": "e95bec33-7c88-4a70-8e19-b10bd9d0c014",
+	"Name": "Office Online"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "0a4983bb-d3e5-4a09-95d8-b2d0127b3df5",
+	"Name": "SharePoint Plan 1 for EDU"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "1d0f309f-fdf9-4b2a-9ae7-9c48b91f1426",
+	"Name": "Azure Active Directory Basic for EDU"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "2078e8df-cff6-4290-98cb-5408261a760a",
+	"Name": "Yammer for Academic"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "9aaf7827-d63c-4b61-89c3-182f06f82e5c",
+	"Name": "Exchange Online (Plan 1)"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "c33802dd-1b50-4b9a-8bb9-f13d2cdeadac",
+	"Name": "School Data Sync (Plan 1)"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "94763226-9b3c-4e75-a931-5c89701abe66",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "0a4983bb-d3e5-4a09-95d8-b2d0127b3df5",
+	"Name": "SharePoint Plan 1 for EDU"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "1d0f309f-fdf9-4b2a-9ae7-9c48b91f1426",
+	"Name": "Azure Active Directory Basic for EDU"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "2078e8df-cff6-4290-98cb-5408261a760a",
+	"Name": "Yammer for Academic"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "9aaf7827-d63c-4b61-89c3-182f06f82e5c",
+	"Name": "Exchange Online (Plan 1)"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "c33802dd-1b50-4b9a-8bb9-f13d2cdeadac",
+	"Name": "School Data Sync (Plan 1)"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "78e66a63-337a-4a9a-8959-41c6654dfb56",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "0a4983bb-d3e5-4a09-95d8-b2d0127b3df5",
+	"Name": "SharePoint Plan 1 for EDU"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "1d0f309f-fdf9-4b2a-9ae7-9c48b91f1426",
+	"Name": "Azure Active Directory Basic for EDU"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "2078e8df-cff6-4290-98cb-5408261a760a",
+	"Name": "Yammer for Academic"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+	"Name": "Office 365 ProPlus"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "9aaf7827-d63c-4b61-89c3-182f06f82e5c",
+	"Name": "Exchange Online (Plan 1)"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "c33802dd-1b50-4b9a-8bb9-f13d2cdeadac",
+	"Name": "School Data Sync (Plan 1)"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "e82ae690-a2d5-4d76-8d30-7c6e01e6022e",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "0a4983bb-d3e5-4a09-95d8-b2d0127b3df5",
+	"Name": "SharePoint Plan 1 for EDU"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c",
+	"Name": "Skype for Business Online (Plan 2)"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "1d0f309f-fdf9-4b2a-9ae7-9c48b91f1426",
+	"Name": "Azure Active Directory Basic for EDU"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "2078e8df-cff6-4290-98cb-5408261a760a",
+	"Name": "Yammer for Academic"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+	"Name": "Microsoft Teams"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "76846ad7-7776-4c40-a281-a386362dd1b9",
+	"Name": "Flow for Office 365"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3",
+	"Name": "Microsoft StaffHub"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "9aaf7827-d63c-4b61-89c3-182f06f82e5c",
+	"Name": "Exchange Online (Plan 1)"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "9b5de886-f035-4ff2-b3d8-c9127bea3620",
+	"Name": "Microsoft Forms (Plan 2)"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "9e700747-8b1d-45e5-ab8d-ef187ceec156",
+	"Name": "Stream for Office 365"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97",
+	"Name": "Sway"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+	"Name": "Microsoft Planner"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90",
+	"Name": "Azure Rights Management"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "c33802dd-1b50-4b9a-8bb9-f13d2cdeadac",
+	"Name": "School Data Sync (Plan 1)"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "c68f8d98-5534-41c8-bf36-22fa496fa792",
+	"Name": "PowerApps for Office 365"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "c87f142c-d1e9-4363-8630-aaea9c4d9ae5",
+	"Name": "To-Do (Plan 2)"
+},
+{
+	"SkuId": "314c4481-f395-4525-be8b-2ec4bb1e9d91",
+	"ServicePlanId": "e03c7e47-402c-463c-ab25-949079bedb21",
+	"Name": "Office Online for Education"
+}]
