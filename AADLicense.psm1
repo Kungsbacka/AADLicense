@@ -310,52 +310,133 @@ function Remove-AADLicense
     param
     (
         [Parameter(Mandatory=$true,Position=0,ValueFromPipeline=$true)]
-        [string[]]
+        [string]
         $ObjectId,
-        [Parameter(Mandatory=$true,ParameterSetName='AllLicenses')]
+        [Parameter(Mandatory=$true,ParameterSetName='All')]
         [switch]
         $All
     )
     DynamicParam
     {
-        # To be implemented
-    }
-    begin
-    {
+        if (-not $All)
+        {
+            if ($ObjectId)
+            {
+                $objId = $ObjectId.Trim("'", '"')
+                try
+                {
+                    $aadUser = Get-AzureADUser -ObjectId $objId
+                }
+                catch
+                {
+                }
+            }
+            $set = [System.Collections.Generic.SortedSet[string]]::new()
+            foreach ($lic in $Script:LicenseBySkuId.Keys)
+            {
+                if ($aadUser -and $lic -notin $aadUser.AssignedLicenses.SkuId)
+                {
+                    continue
+                }
+                [void]$set.Add($Script:LicenseBySkuId[$lic])
+            }
+            if ($set.Count -eq 0)
+            {
+                [void]$set.Add('(User has no license)')
+            }
+            ([DynamicParameter]@{
+                Name = 'License'
+                Type = [string[]]
+                Mandatory = $true
+                ParameterSetName = 'Selected'
+                ValidateSet = $set
+            }).Get()
+        }
     }
     process
     {
-        throw "Not implemented"
-#        foreach ($id in $ObjectId)
-#        {
-#            $aadUser = Get-AzureADUser -ObjectId $id
-#            if (-not $aadUser.AssignedLicenses)
-#            {
-#                Write-Warning -Message "User with ID ""$id"" has no licenses assigned. User is skipped."
-#                continue
-#            }
-#            $removeLicenses = New-Object 'System.Collections.Generic.List[string]'
-#            foreach ($item in $aadUser.AssignedLicenses)
-#            {
-#                if ($All -or $SkusToRemove.ContainsKey($item.SkuId))
-#                {
-#                    $removeLicenses.Add($item.SkuId)
-#                }
-#            }
-#            if ($removeLicenses.Count -eq 0)
-#            {
-#                Write-Warning -Message "User with ID ""$id"" is not assigned any of the licenses requested for removal. User is skipped."
-#                continue
-#            }
-#            if ($PSCmdlet.ShouldProcess($id, 'Remove license(s)'))
-#            {
-#                $params = @{
-#                    ObjectId = $id
-#                    AssignedLicenses = New-Object -TypeName 'Microsoft.Open.AzureAD.Model.AssignedLicenses' -ArgumentList @($null, $removeLicenses)
-#                }
-#                Set-AzureADUserLicense @params
-#            }
-#        }
+        $License = $PSBoundParameters['License']
+        $licensesToRemove = @{}
+        if ($License)
+        {
+            if ($License -eq '(User has no license)')
+            {
+                Write-Warning "User with ID ""$ObjectId"" is unlicensed."
+                return
+            }
+            foreach ($name in $License)
+            {
+                $licensesToRemove.Add($Script:LicenseByName[$name], $true)
+            }
+        }
+        $aadUser = Get-AzureADUser -ObjectId $ObjectId
+        $removeLicenses = New-Object 'System.Collections.Generic.List[string]'
+        foreach ($item in $aadUser.AssignedLicenses)
+        {
+            if ($All -or $licensesToRemove[$item.SkuId])
+            {
+                $removeLicenses.Add($item.SkuId)
+            }
+        }
+        if ($removeLicenses.Count -eq 0)
+        {
+            Write-Warning -Message "User with ID ""$ObjectId"" is not assigned any of the licenses requested for removal."
+            return
+        }
+        if ($PSCmdlet.ShouldProcess($ObjectId, 'Remove license(s)'))
+        {
+            $params = @{
+                ObjectId = $ObjectId
+                AssignedLicenses = New-Object -TypeName 'Microsoft.Open.AzureAD.Model.AssignedLicenses' -ArgumentList @($null, $removeLicenses)
+            }
+            Set-AzureADUserLicense @params
+        }
+    }
+}
+
+function Show-AADLicense
+{
+    param
+    (
+        [Parameter(Mandatory=$true,Position=0,ValueFromPipeline=$true)]
+        [object[]]
+        $License
+    )
+    begin
+    {
+        $disabledPlans = [System.Collections.Generic.SortedSet[string]]::new()
+    }
+    process
+    {
+        foreach ($item in $License)
+        {
+            $displayName = $Script:LicenseBySkuId[$item.SkuId]
+            if (-not $displayName)
+            {
+                Write-Warning "Unknown license $($item.SkuId)"
+                $displayName = $item.SkuId
+            }
+            $disabledPlans.Clear()
+            foreach ($plan in $item.DisabledPlans)
+            {
+                $planDisplayName = $Script:ServicePlanByServicePlanId[$plan]
+                if (-not $planDisplayName)
+                {
+                    Write-Warning "Unknown service plan $plan"
+                    $planDisplayName = $plan
+                }
+                [void]$disabledPlans.Add($planDisplayName)
+            }
+            Write-Host -Object $displayName -ForegroundColor Yellow
+            if ($disabledPlans.Count -gt 0)
+            {
+                Write-Host -Object ('  [Disabled] ' + ($disabledPlans -join "`r`n  [Disabled] "))
+            }
+            else
+            {
+                Write-Host -Object '  [No disabled plans]'
+            }
+        }
     }
 }
 
@@ -374,16 +455,16 @@ function Script:Get-AADLicense
     License information is stored in license.json in the module folder. Information about
     service plans is stored in serviceplan.json.
     
-    Underscores are added to all license names to get parameter binding to work as desired.
-    If there are spaces in the names, parameter binding happens in a wat that the dynamic
-    parameter (DisabledLicense) will not be able to read the license name. I have not found
-    a workaround for this.
+    Underscores are added to all license names to get tab completion work with the dynamic
+    parameter. If a static parameter has a validate set with values that contain spaces,
+    and the static parameter is specified first, the dynamic parameter won't show up
+    when you try to do tab completion.
 
     .PARAMETER Name
     License name
     
-    .PARAMETER Name
-    License pack name
+    .PARAMETER DisabledPlan
+    Disabled service plans
     
     .EXAMPLE
     Get-AADLicense -Name Office_365_Enterprise_E3 -DisabledPlan 'Exchange Online (Plan 2)'
@@ -401,7 +482,7 @@ function Script:Get-AADLicense
     try to keep the list up to date as long as I use this module myself. I welcome suggestions of
     how to automate this process.
 #>
-        [CmdletBinding()]
+    [CmdletBinding()]
     param
     (
         [ValidateSet("<SET>")]
@@ -448,10 +529,11 @@ function Script:Get-AADLicense
 }
 '@
 
-
 Script:CheckResources
 Script:LoadResources
 
+# Dynamically create function Get-AADLicense. This is done so that the dynamic parameter
+# DisabledPlan can depend on the value of the License parameter.
 $set = $Script:LicenseByName.Keys -join '","' -replace ' ', '_'
 $func = $getAADLicenseFunc -replace '<SET>', $set
 [scriptblock]::Create($func).Invoke()

@@ -1,4 +1,5 @@
 ﻿using namespace System.Management.Automation
+using namespace System.Collections.ObjectModel
 
 class DynamicParameter
 {
@@ -27,7 +28,7 @@ class DynamicParameter
         {
             throw 'Name cannot be null och empty'
         }
-        $attribCol = [System.Collections.ObjectModel.Collection[System.Attribute]]::new()
+        $attribCol = [Collection[Attribute]]::new()
         $paramAttrib = [ParameterAttribute]::new()
         $paramAttrib.Mandatory = $this.Mandatory
         $paramAttrib.Position = $this.Position
@@ -45,7 +46,7 @@ class DynamicParameter
         }
         if ($this.ValidateSet)
         {
-            $validateSetAttrib = [System.Management.Automation.ValidateSetAttribute]::new($this.ValidateSet)
+            $validateSetAttrib = [ValidateSetAttribute]::new($this.ValidateSet)
             $attribCol.Add($validateSetAttrib)
         }
         $attribCol.Add($paramAttrib)
