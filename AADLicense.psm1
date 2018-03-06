@@ -51,6 +51,17 @@ function Script:LoadResources()
     $Script:LicensePacks = Get-Content -Path "$PSScriptRoot\licensepack.json" | ConvertFrom-Json
 }
 
+function MakeAssignedLicense($InputObject)
+{
+    $license = New-Object 'System.Collections.Generic.List[Microsoft.Open.AzureAD.Model.AssignedLicense]'
+    foreach ($item in $InputObject)
+    {
+        $license.Add((New-Object -TypeName 'Microsoft.Open.AzureAD.Model.AssignedLicense' -ArgumentList @($item.DisabledPlans, $item.SkuId)))
+    }
+    $license
+}
+
+
 function ConvertTo-AADAssignedLicense
 {
 <#
@@ -58,13 +69,21 @@ function ConvertTo-AADAssignedLicense
     Converts an object or JSON string into an Microsoft.Open.AzureAD.Model.AssignedLicenses object.
 
 .DESCRIPTION
-    The function takes an input object with two properties: SkuId and DisabledPlans. SkuId is
-    the license SkuId GUID and DisabledPlans is an array with ServicePlanId GUIDs that should
-    be disabled. If the input object is a string it is first deserialized as JSON.
+    The function takes two kinds of custom objects as input and converts them to an AssignedLicenses
+    object that can be used with the AzureAD module.
 
-    All functions in this module uses this custom object format to describe and pass around license
-    information. If you want to work with the AzureAD cmdlets directly you can use this function
-    to convert the custom object to the type used by the AzureAD module.
+    If the input object is a string it is first deserialized as JSON.
+
+    The first type of object should contain only two properties: SkuId and DisabledPlans. SkuId is
+    the license SkuId GUID and DisabledPlans is an array with ServicePlanId GUIDs that should be
+    disabled. This will result in an AssignedLicenses object with only the AddLicenses property set.
+
+    The second object should contain an AddLicenses property and a RemoveLicenses property. Both
+    properties can contain one or more licenses of the first type. DisabledPlans property is ignored
+    for RemoveLicenses.
+
+    All functions in this module uses a custom object to describe and pass around license information.
+    You only have to use this function if you want to use the AzureAD module to add or remove licenses.
 
 .PARAMETER InputObject
 Object or string to convert
@@ -80,6 +99,8 @@ $obj | ConvertTo-AADAssignedLicense
 $json = '{"SkuId":"34ca1328-4568-40df-a09e-a5ab5e2c30e2","DisabledPlans":["fc01bf39-abbb-44b4-8fbb-e69b1c0dff66","8c53903a-e937-40b5-b056-29cc51d902cd"]}'
 }
 $obj | ConvertTo-AADAssignedLicense
+
+.EXAMPLE
 
 .NOTES
 Only the AddLicenses member is populated. RemoveLicenses is always empty.
@@ -99,12 +120,17 @@ Only the AddLicenses member is populated. RemoveLicenses is always empty.
         {
             $object = $InputObject
         }
-        $licenses = New-Object 'System.Collections.Generic.List[Microsoft.Open.AzureAD.Model.AssignedLicense]'
-        foreach ($item in $object)
+        $output = New-Object -TypeName 'Microsoft.Open.AzureAD.Model.AssignedLicenses'
+        if ($object.AddLicenses -or $object.RemoveLicenses)
         {
-            $licenses.Add((New-Object -TypeName 'Microsoft.Open.AzureAD.Model.AssignedLicense' -ArgumentList @($item.DisabledPlans, $item.SkuId)))
+            $output.AddLicenses = MakeAssignedLicense $object.AddLicenses
+            $output.RemoveLicenses = [string[]]($object.RemoveLicenses.SkuId)   
         }
-        New-Object -TypeName 'Microsoft.Open.AzureAD.Model.AssignedLicenses' -ArgumentList @($licenses, $null)
+        else
+        {
+            $output.AddLicenses = MakeAssignedLicense $object
+        }
+        Write-Output -InputObject $output
     }
 }
 
@@ -427,7 +453,7 @@ function Show-AADLicense
                 }
                 [void]$disabledPlans.Add($planDisplayName)
             }
-            Write-Host -Object $displayName -ForegroundColor Yellow
+            Write-Host -Object "`r`n$displayName" -ForegroundColor Yellow
             if ($disabledPlans.Count -gt 0)
             {
                 Write-Host -Object ('  [Disabled] ' + ($disabledPlans -join "`r`n  [Disabled] "))
@@ -436,29 +462,32 @@ function Show-AADLicense
             {
                 Write-Host -Object '  [No disabled plans]'
             }
+            Write-Host
         }
     }
 }
 
 $getAADLicenseFunc = @'
-function Script:Get-AADLicense
+function Script:New-AADLicense
 {
 <#
     .SYNOPSIS
-    Gets a license by name
+    Creates a new license object
     
     .DESCRIPTION
-    This function makes working with licenses with the AzureAD module more convenient since
-    you can reference licenses by their display name instead of by their GUID. You can also
-    reference service plans by display name when disabling plans.
+    Creates a new license object that can be used with the other function in this module
+    that takes a license.
+
+    Use ConvertTo-AADAssignedLicense to convert the license object into an AssignedLicenses
+    object that can be used directly with the AzureAD module.
     
     License information is stored in license.json in the module folder. Information about
     service plans is stored in serviceplan.json.
     
     Underscores are added to all license names to get tab completion work with the dynamic
     parameter. If a static parameter has a validate set with values that contain spaces,
-    and the static parameter is specified first, the dynamic parameter won't show up
-    when you try to do tab completion.
+    and the static parameter is specified first, the dynamic parameter won't show up when
+    you try to do tab completion.
 
     .PARAMETER Name
     License name
@@ -477,10 +506,9 @@ function Script:Get-AADLicense
     
     .NOTES
     License information in license.json and serviceplan.json is by no means a complete list of
-    all licenses and service plans in Office 365/Azure. It contains everything I could have found
-    in our own Office 365 tennant. License and service plan names change all the time, but I will
-    try to keep the list up to date as long as I use this module myself. I welcome suggestions of
-    how to automate this process.
+    all licenses and service plans in Office 365/Azure. It contains everything I have found in our
+    own Office 365 tennant. License and service plan names change all the time, but I will try to
+    keep the list up to date as long as I use this module.
 #>
     [CmdletBinding()]
     param
