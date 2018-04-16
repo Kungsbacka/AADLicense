@@ -88,6 +88,14 @@ function ConvertTo-AADAssignedLicense
 .PARAMETER InputObject
 Object or string to convert
 
+.INPUTS
+Custom object with properties: SkuId (string), DisabledPlans (string[])
+  -- or --
+Custom object with properties: AddLicenses (array of custom objects above), RemoveLicenses (string[])
+
+.OUTPUTS
+Object of type Microsoft.Open.AzureAD.Model.AssignedLicenses
+
 .EXAMPLE
 $obj = [pscustomobject]@{
     SkuId = '34ca1328-4568-40df-a09e-a5ab5e2c30e2'
@@ -99,8 +107,6 @@ $obj | ConvertTo-AADAssignedLicense
 $json = '{"SkuId":"34ca1328-4568-40df-a09e-a5ab5e2c30e2","DisabledPlans":["fc01bf39-abbb-44b4-8fbb-e69b1c0dff66","8c53903a-e937-40b5-b056-29cc51d902cd"]}'
 }
 $obj | ConvertTo-AADAssignedLicense
-
-.EXAMPLE
 
 .NOTES
 Only the AddLicenses member is populated. RemoveLicenses is always empty.
@@ -142,14 +148,19 @@ Gets a license pack by id or name.
 
 .DESCRIPTION
 License packs are a way to package one or more liceses with optional disabled service plans.
-Packages are currently stored in a file called licensepack.json found in the module folder.
-The license packs are given an ID and a name that can be used with this function.
+Packages are stored in a file called licensepack.json found in the module folder.
 
 .PARAMETER Id
-License pack ID
+License pack id
 
 .PARAMETER Name
 License pack name
+
+.INPUTS
+(none)
+
+.OUTPUTS
+Array of custom objects
 
 .EXAMPLE
 Get-AADLicensePack -Name 'Global admins'
