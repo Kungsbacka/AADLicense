@@ -99,6 +99,11 @@
 	"LicenseName": "Microsoft Power Apps \u0026 Flow"
 },
 {
+	"SkuId": "f30db892-07e9-47e9-837c-80727f46fd3d",
+	"SkuPartNumber": "FLOW_FREE",
+	"LicenseName": "Microsoft Flow Free"
+},
+{
 	"SkuId": "de5f128b-46d7-4cfc-b915-a89ba060ea56",
 	"SkuPartNumber": "POWER_BI_PRO_FACULTY",
 	"LicenseName": "Power BI Pro for faculty"
@@ -107,6 +112,11 @@
 	"SkuId": "efccb6f7-5641-4e0e-bd10-b4976e1bf68e",
 	"SkuPartNumber": "EMS",
 	"LicenseName": "Enterprise Mobility + Security E3"
+},
+{
+	"SkuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968",
+	"SkuPartNumber": "EMSPREMIUM",
+	"LicenseName": "Enterprise Mobility + Security E5"
 },
 {
 	"SkuId": "f8a1db68-be16-40ed-86d5-cb42ce701560",
