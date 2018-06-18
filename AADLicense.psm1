@@ -72,7 +72,7 @@ function ConvertTo-AADAssignedLicense
     The function takes two kinds of custom objects as input and converts them to an AssignedLicenses
     object that can be used with the AzureAD module.
 
-    If the input object is a string it is first deserialized as JSON.
+    If the input object is a string it is first de-serialized as JSON.
 
     The first type of object should contain only two properties: SkuId and DisabledPlans. SkuId is
     the license SkuId GUID and DisabledPlans is an array with ServicePlanId GUIDs that should be
@@ -213,7 +213,7 @@ Sets new licenses replacing all other licenses.
 Sets new liceses for a user. The new licenses replaces all existing licenses.
 
 If UsageLocation is not set on a user, assigning a license might fail. By supplying
-the DefultUsageLocation parameter, the function can first set a UsageLocation before
+the DefaultUsageLocation parameter, the function can first set a UsageLocation before
 licenses are assigned.
 
 .PARAMETER ObjectId
@@ -297,7 +297,7 @@ Default usage location string (see Set-AADLicense)
 see Set-AADLicense
 
 .NOTES
-This function is implemented for completness since it is almost as easy to use
+This function is implemented for completeness since it is almost as easy to use
 Set-AzureADUserLicense directly in combination with Get-AADLicense/Get-AADLicensePack
 and ConvertTo-AADAssignedLicense.
 #>
