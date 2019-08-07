@@ -46,7 +46,7 @@ function Script:LoadResources()
             $Script:ServicePlanByServicePlanId.Add($item.ServicePlanId, $item.Name)
         }
     }
-    
+
     # Load license packs
     $Script:LicensePacks = Get-Content -Path "$PSScriptRoot\licensepack.json" | ConvertFrom-Json
 }
@@ -108,8 +108,6 @@ $json = '{"SkuId":"34ca1328-4568-40df-a09e-a5ab5e2c30e2","DisabledPlans":["fc01b
 }
 $obj | ConvertTo-AADAssignedLicense
 
-.NOTES
-Only the AddLicenses member is populated. RemoveLicenses is always empty.
 #>
     param
     (
@@ -130,7 +128,7 @@ Only the AddLicenses member is populated. RemoveLicenses is always empty.
         if ($object.AddLicenses -or $object.RemoveLicenses)
         {
             $output.AddLicenses = MakeAssignedLicense $object.AddLicenses
-            $output.RemoveLicenses = [string[]]($object.RemoveLicenses.SkuId)   
+            $output.RemoveLicenses = [string[]]($object.RemoveLicenses.SkuId)
         }
         else
         {
@@ -484,17 +482,17 @@ function Script:New-AADLicense
 <#
     .SYNOPSIS
     Creates a new license object
-    
+
     .DESCRIPTION
     Creates a new license object that can be used with the other function in this module
     that takes a license.
 
     Use ConvertTo-AADAssignedLicense to convert the license object into an AssignedLicenses
     object that can be used directly with the AzureAD module.
-    
+
     License information is stored in license.json in the module folder. Information about
     service plans is stored in serviceplan.json.
-    
+
     Underscores are added to all license names to get tab completion work with the dynamic
     parameter. If a static parameter has a validate set with values that contain spaces,
     and the static parameter is specified first, the dynamic parameter won't show up when
@@ -502,10 +500,10 @@ function Script:New-AADLicense
 
     .PARAMETER Name
     License name
-    
+
     .PARAMETER DisabledPlan
     Disabled service plans
-    
+
     .EXAMPLE
     Get-AADLicense -Name Office_365_Enterprise_E3 -DisabledPlan 'Exchange Online (Plan 2)'
 
@@ -514,7 +512,7 @@ function Script:New-AADLicense
     $licenses = @()
     $licenses += Get-AADLicense -Name Office_365_Enterprise_E3 -DisabledPlan 'Exchange Online (Plan 2)'
     $licenses += Get-AADLicense -Name Power_BI_Pro
-    
+
     .NOTES
     License information in license.json and serviceplan.json is by no means a complete list of
     all licenses and service plans in Office 365/Azure. It contains everything I have found in our
