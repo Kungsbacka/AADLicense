@@ -7,7 +7,7 @@
     Copyright = '(c) 2018 Jonas Sjömark. All rights reserved.'
     Description = 'Module for working with Azure AD licenses'
     PowerShellVersion = '5.0'
-    RequiredModules = @('AzureAD')
+    RequiredModules = @()
     FunctionsToExport = '*'
     CmdletsToExport = @()
     VariablesToExport = @()
